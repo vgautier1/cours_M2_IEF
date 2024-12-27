@@ -13,4 +13,8 @@ Comparer la courbe de Phillips dans deux économies de la Zone Euro, l’une for
 Analyser la courbe de Phillips pour différentes sous-périodes caractéristiques de la Zone Euro (inspiration papier BdF 2018)
 
 
-**4) XX**
+**4) Courbe de Phillips dans le monde – Economies matures VS émergentes**
+
+Comparer la courbe de Phillips dans deux économies du monde, l’une mature l’autre émergente (problématique d’ancrage des anticipations d’inflation)
+
+
