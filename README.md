@@ -19,6 +19,7 @@ Comparer la courbe de Phillips dans deux économies du monde, l’une mature l�
 
 
 vac_FRA = getdata('EUROSTAT/JVS_Q_NACE2_JOBRATE_SA_B-S_TOTAL/FRA?collapse=M')
+
 unemp_FRA = getdata('EUROSTAT/EI_LMHR_M_LM-UN-T-TOT_SA_PC_ACT/FRA')
 
 tgdp_FRA = getdata('EUROSTAT/NAMQ_10_GDP_B1GQ_NSA_CLV10_MEUR/FRA?transform=growth_yoy')
