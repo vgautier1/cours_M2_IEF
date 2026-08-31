@@ -1,4 +1,4 @@
-**Courbe de Phillips
+**Courbe de Phillips**
 
 **1) Courbe de Phillips dans la Zone Euro – Analyse de l’impact selon le type de chômage**
 
@@ -33,6 +33,26 @@ infl_FRA = getdata('EUROSTAT/PRC_HICP_MIDX_CP00_I15/FRA?transform=growth_yoy')
 brent  = getdata('PINKSHEET/CRUDE_BRENT/WLD')
 
 tbrent = getdata('PINKSHEET/CRUDE_BRENT/WLD?transform=growth_yoy')
+
+
+**PPA & PTI**
+
+**1) PPA : Absolue vs. Relative**
+
+Calculer/estimer les deux versions de la PPA pour 2 économies minimum
+
+**2) PTI : Taux directeur vs. taux long**
+
+Calculer/estimer les deux versions de la PTI pour 2 économies minimum
+
+**3) PPA & PTI : Economies matures vs. émergentes**
+
+Calculer/estimer la PPA et de la PTI pour 2 économies minimum (1 mature et 1 émergente) + estimation PPA/PTI combinée
+
+**4) PPA & PTI: Déterminants fondamentaux et complémentaires**
+
+Estimer une version combinée PPA/PTI et une version combinée PPA/PTI augmentée d’autres déterminants pour 3 économies minimum
+
 
 
 
