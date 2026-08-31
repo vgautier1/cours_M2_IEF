@@ -1,4 +1,4 @@
-#**Courbe de Phillips**
+# **Courbe de Phillips**
 
 **1) Courbe de Phillips dans la Zone Euro – Analyse de l’impact selon le type de chômage**
 
@@ -35,7 +35,7 @@ brent  = getdata('PINKSHEET/CRUDE_BRENT/WLD')
 tbrent = getdata('PINKSHEET/CRUDE_BRENT/WLD?transform=growth_yoy')
 
 
-#**PPA & PTI**
+# **PPA & PTI**
 
 **1) PPA : Absolue vs. Relative**
 
