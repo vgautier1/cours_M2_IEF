@@ -25,6 +25,8 @@ vac_FRA = getdata('EUROSTAT/JVS_Q_NACE2_JOBRATE_SA_B-S_TOTAL/FRA?collapse=M')
 unemp_FRA = getdata('EUROSTAT/EI_LMHR_M_LM-UN-T-TOT_SA_PC_ACT/FRA')
 
 unemp_NOR = getdata('EUROSTAT/EI_LMHR_M_LM-UN-T-TOT_SA_PC_ACT/NOR')
+infl_NOR = getdata('EUROSTAT/PRC_HICP_MIDX_CP00_I15/NOR?transform=growth_yoy')
+infl_NOR = getdata('IMF/CPI_CPI_T_IX_M/NOR?transform=growth_yoy')
 
 tgdp_FRA = getdata('EUROSTAT/NAMQ_10_GDP_B1GQ_SCA_CLV10_MEUR/FRA?transform=growth_yoy')
 
