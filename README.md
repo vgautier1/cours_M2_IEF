@@ -24,6 +24,8 @@ vac_FRA = getdata('EUROSTAT/JVS_Q_NACE2_JOBRATE_SA_B-S_TOTAL/FRA?collapse=M')
 
 unemp_FRA = getdata('EUROSTAT/EI_LMHR_M_LM-UN-T-TOT_SA_PC_ACT/FRA')
 
+unemp_NOR = getdata('EUROSTAT/EI_LMHR_M_LM-UN-T-TOT_SA_PC_ACT/NOR')
+
 tgdp_FRA = getdata('EUROSTAT/NAMQ_10_GDP_B1GQ_SCA_CLV10_MEUR/FRA?transform=growth_yoy')
 
 gdp_FRA = getdata('EUROSTAT/NAMQ_10_GDP_B1GQ_SCA_CLV10_MEUR/FRA')
@@ -33,6 +35,7 @@ infl_FRA = getdata('EUROSTAT/EI_CPHI_M_TOTAL_HICP2025/FRA?transform=growth_yoy')
 brent  = getdata('PINKSHEET/CRUDE_BRENT/WLD')
 
 tbrent = getdata('PINKSHEET/CRUDE_BRENT/WLD?transform=growth_yoy')
+
 
 
 # **PPA & PTI**
