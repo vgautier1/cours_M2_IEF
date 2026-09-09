@@ -84,6 +84,8 @@ cpi_can = getdata('BIS/LONG_CPI_628/CAN?collapse=M')
 
 cpi_usa = getdata('BIS/LONG_CPI_628/USA?collapse=M')
 
+cpi_vnm = getdata('IMF/CPI_CPI_T_IX_M/VNM?collapse=M')
+
 
 
 
