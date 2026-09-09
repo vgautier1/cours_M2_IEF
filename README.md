@@ -66,9 +66,23 @@ usdjpy = getdata('BIS/XRU_D_A/JPN?collapse=M')
 
 usdcad = getdata('BIS/XRU_D_A/CAN?collapse=M')
 
+
 library(quantmod)
 
 usdvnd = getSymbols("VND=X", src = "yahoo", from = "2000-01-01", periodicity = "monthly", auto.assign = FALSE)
+
+
+cpi_euz = getdata('BIS/LONG_CPI_628/EUZ?collapse=M')
+
+cpi_mex = getdata('BIS/LONG_CPI_628/MEX?collapse=M')
+
+cpi_bra = getdata('BIS/LONG_CPI_628/BRA?collapse=M')
+
+cpi_jpn = getdata('BIS/LONG_CPI_628/JPN?collapse=M')
+
+cpi_can = getdata('BIS/LONG_CPI_628/CAN?collapse=M')
+
+cpi_usa = getdata('BIS/LONG_CPI_628/USA?collapse=M')
 
 
 
