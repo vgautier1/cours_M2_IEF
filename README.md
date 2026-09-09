@@ -86,6 +86,30 @@ cpi_usa = getdata('BIS/LONG_CPI_628/USA?collapse=M')
 
 cpi_vnm = getdata('IMF/CPI_CPI_T_IX_M/VNM?collapse=M')
 
+# - Taux d'intérêt
+prate_euz = getdata('BIS/CBPOL_D/EUZ?collapse=M&collapse_mode=end_of_period')
+
+prate_mex = getdata('BIS/CBPOL_D/MEX?collapse=M&collapse_mode=end_of_period')
+
+prate_bra = getdata('BIS/CBPOL_D/BRA?collapse=M&collapse_mode=end_of_period')
+
+prate_jpn = na.locf(getdata('BIS/CBPOL_D/JPN?collapse=M&collapse_mode=end_of_period'))
+
+prate_can = getdata('BIS/CBPOL_D/CAN?collapse=M&collapse_mode=end_of_period')
+
+prate_usa = getdata('BIS/CBPOL_D/USA?collapse=M&collapse_mode=end_of_period')
+
+prate_aus = getdata('BIS/CBPOL_D/AUS?collapse=M&collapse_mode=end_of_period')
+
+bond10_euz = getdata('FRED/IRLTLT01DEM156N/DEU?collapse=M') # ATTENTION POUR LA ZONE EURO C EST LE TAUX LONG ALLEMAND QUI PREVAUT
+bond10_jpn = getdata('FRED/IRLTLT01JPM156N/JPN?collapse=M')
+
+bond10_can = getdata('FRED/IRLTLT01CAM156N/CAN?collapse=M')
+
+bond10_usa = getdata('FRED/DGS10/USA?collapse=M')
+
+bond10_aus = getdata('FRED/IRLTLT01AUM156N/AUS?collapse=M')
+
 
 
 
