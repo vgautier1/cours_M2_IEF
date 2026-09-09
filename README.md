@@ -59,8 +59,11 @@ Calculer/estimer la PPA et de la PTI pour 2 économies minimum (1 mature et 1 é
 Estimer une version combinée PPA/PTI et une version combinée PPA/PTI augmentée d’autres déterminants pour 3 économies minimum
 
 usdmxn = getdata('BIS/XRU_D_A/MEX?collapse=M')
+
 usdbrl = getdata('BIS/XRU_D_A/BRA?collapse=M')
+
 usdjpy = getdata('BIS/XRU_D_A/JPN?collapse=M')
+
 usdcad = getdata('BIS/XRU_D_A/CAN?collapse=M')
 
 
